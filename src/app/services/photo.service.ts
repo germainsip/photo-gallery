@@ -37,8 +37,8 @@ export class PhotoService {
     });
 
     return {
-      filePath: fileName,
-      webViewPath: photo.webPath
+      filepath: fileName,
+      webviewPath: photo.webPath
     }
   }
   private async readAsBase64(photo: Photo) {
